@@ -1,0 +1,44 @@
+/* images style*/
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* display divs in score section inline*/
+.block{
+    display: inline;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* div "result" in score section style*/
+#result{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* make hover over slide show buttons*/
+.button{
+    background-color:#1FAAFB;
+    opacity: 0.5;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 2px;
+}
+.button:hover
+{
+	transform: scale(1.1,1.2);
+	transition: all ease-in-out 0.5s;
+    background-color:#0089DE;
+    opacity:1;
+}
+
+/* digital hour style*/
+#clock{
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
